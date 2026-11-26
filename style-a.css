@@ -69,7 +69,8 @@ section{padding:clamp(64px,9vw,112px) var(--pad);position:relative}
 .cta-button:active{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--red)}
 
 /* ---------- cards ---------- */
-.features-grid,.testimonials-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,32px)}
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,32px)}
+#testimonials .testimonials-grid{display:grid;grid-template-columns:1fr;gap:clamp(18px,2.4vw,32px);max-width:640px;margin-inline:auto}
 .pricing-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(18px,2.4vw,32px);max-width:860px}
 .feature-card,.pricing-card,.testimonial-card{background:var(--cream);border:3px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:clamp(22px,2.6vw,34px);position:relative}
 .feature-card h3,.pricing-card h3{margin:6px 0 14px}
